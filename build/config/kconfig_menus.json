@@ -3,36 +3,6 @@
         "children": [],
         "depends_on": null,
         "help": null,
-        "id": "SOC_BROWNOUT_RESET_SUPPORTED",
-        "name": "SOC_BROWNOUT_RESET_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "string"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_TWAI_BRP_DIV_SUPPORTED",
-        "name": "SOC_TWAI_BRP_DIV_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "string"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_DPORT_WORKAROUND",
-        "name": "SOC_DPORT_WORKAROUND",
-        "range": null,
-        "title": null,
-        "type": "string"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
         "id": "SOC_CAPS_ECO_VER_MAX",
         "name": "SOC_CAPS_ECO_VER_MAX",
         "range": null,
@@ -693,6 +663,16 @@
         "children": [],
         "depends_on": null,
         "help": null,
+        "id": "SOC_BROWNOUT_RESET_SUPPORTED",
+        "name": "SOC_BROWNOUT_RESET_SUPPORTED",
+        "range": null,
+        "title": null,
+        "type": "bool"
+    },
+    {
+        "children": [],
+        "depends_on": null,
+        "help": null,
         "id": "SOC_SHARED_IDCACHE_SUPPORTED",
         "name": "SOC_SHARED_IDCACHE_SUPPORTED",
         "range": null,
@@ -777,7 +757,7 @@
         "name": "SOC_CPU_WATCHPOINT_MAX_REGION_SIZE",
         "range": null,
         "title": null,
-        "type": "int"
+        "type": "hex"
     },
     {
         "children": [],
@@ -2087,7 +2067,7 @@
         "name": "SOC_MPI_OPERATIONS_NUM",
         "range": null,
         "title": null,
-        "type": "bool"
+        "type": "int"
     },
     {
         "children": [],
@@ -2147,7 +2127,7 @@
         "name": "SOC_EFUSE_SECURE_BOOT_KEY_DIGESTS",
         "range": null,
         "title": null,
-        "type": "bool"
+        "type": "int"
     },
     {
         "children": [],
@@ -3315,7 +3295,7 @@
                                     },
                                     {
                                         "children": [],
-                                        "depends_on": "<choice BOOTLOADER_LOG_MODE>",
+                                        "depends_on": "BOOTLOADER_LOG_VERSION_2 && <choice BOOTLOADER_LOG_MODE>",
                                         "help": "Enables binary logging with host-side format string expansion. In this mode, the\nformat argument of ESP_LOGx, ESP_EARLY_LOG, and ESP_DRAM_LOG macros is stored in a\nNOLOAD section, not included in the final binary file. This reduces flash usage by\napproximately 10% - 35%. The esp_log() function uses the binary log handler to output\nmessages. Instead of sending the full log string, the chip transmits only the\naddresses of these strings (if present in the ELF file). If the format string\ncannot be found in the ELF file, the chip sends the entire string. The host-side\nmonitor tool, which has access to the ELF file, reconstructs the log message using\nthe format string.\nThis reduces firmware size by eliminating format strings from\nflash memory and removing the usage of printf-like functions, potentially freeing up\na few kilobytes of space. To further reduce firmware size, wrap string data with ESP_LOG_ATTR_STR.",
                                         "id": "BOOTLOADER_LOG_MODE_BINARY",
                                         "name": "BOOTLOADER_LOG_MODE_BINARY",
@@ -11338,7 +11318,7 @@
                             {
                                 "children": [],
                                 "depends_on": null,
-                                "help": "Enable ANSI terminal color codes. Logs (info, errors, warnings) will contain color codes.\nIn order to view these, your terminal program must support ANSI color codes.",
+                                "help": "Enable ANSI terminal color codes. Logs (info, errors, warnings) will contain color codes.\nIn order to view these, your terminal program must support ANSI color codes.\n\nThis is disabled by default, as colors are added in IDF Monitor. If you want to use new lines\nin the messages or you are using a different terminal program, you may want to enable this option.",
                                 "id": "LOG_COLORS",
                                 "name": "LOG_COLORS",
                                 "range": null,
@@ -11467,7 +11447,7 @@
                                     },
                                     {
                                         "children": [],
-                                        "depends_on": "<choice LOG_MODE>",
+                                        "depends_on": "LOG_VERSION_2 && <choice LOG_MODE>",
                                         "help": "Enables binary logging with host-side format string expansion. In this mode, the\nformat argument of ESP_LOGx, ESP_EARLY_LOG, and ESP_DRAM_LOG macros is stored in a\nNOLOAD section, not included in the final binary file. This reduces flash usage by\napproximately 10% - 35%. The esp_log() function uses the binary log handler to output\nmessages. Instead of sending the full log string, the chip transmits only the\naddresses of these strings (if present in the ELF file). If the format string\ncannot be found in the ELF file, the chip sends the entire string. The host-side\nmonitor tool, which has access to the ELF file, reconstructs the log message using\nthe format string.\nThis reduces firmware size by eliminating format strings from\nflash memory and removing the usage of printf-like functions, potentially freeing up\na few kilobytes of space. To further reduce firmware size, wrap string data with ESP_LOG_ATTR_STR.",
                                         "id": "LOG_MODE_BINARY",
                                         "name": "LOG_MODE_BINARY",

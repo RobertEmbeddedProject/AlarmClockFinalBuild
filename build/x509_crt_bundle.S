@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

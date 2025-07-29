@@ -6,5 +6,6 @@ void ssd1309_init(void);                        // Initialize OLED and I2C
 void ssd1309_clear(void);                       // Clear display buffer
 void ssd1309_display(void);                     // Send buffer to OLED
 void ssd1309_draw_text(int x, int y, const char *text); // Draw text
+void ssd1309_draw_hline(int x_start, int x_end, int y);
 void ssd1309_cmd(uint8_t cmd);                           //raw command to SSD1309
 

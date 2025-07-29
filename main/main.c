@@ -103,10 +103,11 @@ xTaskCreate(rotary_task, "rotary_task", 4096, NULL, 10, NULL);
     ssd1309_reset();
     ssd1309_init();                // Initialize I2C and OLED display
     ssd1309_clear();               // Clear the local framebuffer
-    ssd1309_draw_text(10, 0, "Time:  9:00PM");
-    ssd1309_draw_text(0, 1, "________________");
+    ssd1309_draw_text(18, 0, "Time: 9:00PM");
+    ssd1309_draw_hline(0, 127, 12);   // Horizontal line at y = 10, full width
+    ssd1309_draw_hline(0, 127, 28);
+    ssd1309_draw_hline(0, 127, 44);
     ssd1309_draw_text(10, 2, "Alarm: 6:00AM");
-    ssd1309_draw_text(0, 3, "________________");
     ssd1309_draw_text(10, 4, "Sleep: 9 Hrs");
     
     ssd1309_draw_text(0, 6, "NO ALARM");  //Max characters per line, FYI

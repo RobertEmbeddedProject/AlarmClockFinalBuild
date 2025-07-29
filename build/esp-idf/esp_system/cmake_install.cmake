@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/rfink/esp/v5.5/esp-idf/components/esp_system
+# Install script for directory: C:/Users/finr/Desktop/ESP-IDF/esp-idf/v5.5/esp-idf/components/esp_system
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/rfink/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/finr/Desktop/ESP-IDF/esp-tools/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_system/port/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_system/port/cmake_install.cmake")
 endif()
 

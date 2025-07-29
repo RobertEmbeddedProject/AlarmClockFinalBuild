@@ -1,2 +1,2 @@
-source C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/bootloader/gdbinit/symbols
-source C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/bootloader/gdbinit/connect
+source C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/bootloader/gdbinit/symbols
+source C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/bootloader/gdbinit/connect

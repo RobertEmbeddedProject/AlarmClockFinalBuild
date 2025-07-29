@@ -96,6 +96,29 @@ void ssd1309_draw_text(int x, int y, const char *text) {
     }
 }
 
+void ssd1309_draw_hline(int x_start, int x_end, int y) {
+    if (y < 0 || y >= OLED_HEIGHT) return;
+    if (x_start > x_end) {
+        int tmp = x_start;
+        x_start = x_end;
+        x_end = tmp;
+    }
+
+    if (x_start < 0) x_start = 0;
+    if (x_end >= OLED_WIDTH) x_end = OLED_WIDTH - 1;
+
+    int page = y / 8;
+    uint8_t bit_mask = 1 << (y % 8);
+
+    for (int x = x_start; x <= x_end; x++) {
+        int index = page * OLED_WIDTH + x;
+        if (index >= 0 && index < OLED_BUF_SIZE) {
+            oled_buffer[index] |= bit_mask;
+        }
+    }
+}
+
+
 void ssd1309_reset(void)
 {
     gpio_config_t io_conf = {

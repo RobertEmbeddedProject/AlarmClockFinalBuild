@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/rfink/esp/v5.5/esp-idf
+# Install script for directory: C:/Users/finr/Desktop/ESP-IDF/esp-idf/v5.5/esp-idf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,276 +34,276 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/rfink/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/finr/Desktop/ESP-IDF/esp-tools/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/xtensa/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/xtensa/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_driver_gpio/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_driver_gpio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_timer/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_timer/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_pm/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_pm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/mbedtls/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/mbedtls/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/bootloader/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/bootloader/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esptool_py/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esptool_py/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/partition_table/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/partition_table/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_app_format/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_app_format/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_bootloader_format/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_bootloader_format/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/app_update/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/app_update/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_partition/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_partition/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/efuse/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/efuse/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/bootloader_support/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/bootloader_support/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_mm/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_mm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/spi_flash/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/spi_flash/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_system/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_system/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_common/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_rom/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_rom/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/hal/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/hal/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/log/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/log/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/heap/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/heap/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/soc/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/soc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_security/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_security/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_hw_support/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_hw_support/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/freertos/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/freertos/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/newlib/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/newlib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/pthread/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/pthread/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/cxx/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/cxx/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_ringbuf/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_ringbuf/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_driver_pcnt/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_driver_pcnt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_driver_gptimer/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_driver_gptimer/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_driver_spi/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_driver_spi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_driver_mcpwm/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_driver_mcpwm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_driver_ana_cmpr/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_driver_ana_cmpr/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_driver_i2s/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_driver_i2s/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/sdmmc/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/sdmmc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_driver_sdmmc/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_driver_sdmmc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_driver_sdspi/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_driver_sdspi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_driver_sdio/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_driver_sdio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_driver_dac/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_driver_dac/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_driver_bitscrambler/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_driver_bitscrambler/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_driver_rmt/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_driver_rmt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_driver_tsens/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_driver_tsens/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_driver_sdm/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_driver_sdm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_driver_i2c/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_driver_i2c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_driver_uart/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_driver_uart/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_driver_ledc/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_driver_ledc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_driver_parlio/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_driver_parlio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_driver_usb_serial_jtag/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_driver_usb_serial_jtag/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/esp_driver_twai/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/esp_driver_twai/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/driver/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/driver/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/espressif__led_strip/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/espressif__led_strip/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/rfink/OneDrive/Documentos/ESP-IDF/Alarm Clock Final Build/build/esp-idf/main/cmake_install.cmake")
+  include("C:/Users/finr/Desktop/ESP-IDF/Projects/AlarmClockFinalBuild/build/esp-idf/main/cmake_install.cmake")
 endif()
 
