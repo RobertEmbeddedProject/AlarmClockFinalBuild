@@ -1,0 +1,30 @@
+# Treat all text files normally, auto-convert line endings on checkout/commit
+* text=auto
+
+# Force shell scripts and Makefiles to always use LF (Linux style)
+*.sh    text eol=lf
+Makefile text eol=lf
+
+# Force Windows batch files to always use CRLF
+*.bat   text eol=crlf
+
+# For binary files, avoid any line ending conversion
+*.bin   binary
+*.elf   binary
+*.exe   binary
+*.png   binary
+*.jpg   binary
+*.ico   binary
+*.zip   binary
+
+# ESP-IDF config and source files (C, headers, configs, etc)
+*.c     text
+*.h     text
+*.cpp   text
+*.hpp   text
+*.json  text
+*.xml   text
+*.md    text
+
+# Force markdown to use LF endings to avoid weird diffs on GitHub
+*.md    text eol=lf

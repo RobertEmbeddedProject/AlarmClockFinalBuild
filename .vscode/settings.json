@@ -1,0 +1,25 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPathWin": "C:\\Users\\rfink\\esp\\v5.5\\esp-idf",
+  "idf.pythonInstallPath": "C:\\Users\\rfink\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.openOcdConfigs": [
+    "board/esp32-wrover-kit-3.3v.cfg"
+  ],
+  "idf.portWin": "COM4",
+  "idf.toolsPathWin": "C:\\Users\\rfink\\.espressif",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32"
+  },
+  "files.associations": {
+    "freertos.h": "c",
+    "font6x8": "c",
+    "ssd1309.h": "c",
+    "cstdint": "c",
+    "smallfont.h": "c",
+    "gpio.h": "c",
+    "string.h": "c",
+    "string": "cpp",
+    "songs.h": "c",
+    "task.h": "c"
+  }
+}
