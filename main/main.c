@@ -5,7 +5,7 @@
 #include "freertos/task.h"       //Task management API   xTaskCreate(), vTaskDelete(), vTaskDelay()
 #include "driver/gpio.h"
 #include "driver/pcnt.h"
-#define CMD_PLAY_W_INDEX   0x03   //have to define this command if you want to use it in app_main
+#define CMD_PLAY_W_INDEX   0x03
 
 #define ROTARY_PCNT_INPUT_SIG 32   // CLK
 #define ROTARY_PCNT_INPUT_CTRL 33  // DT
@@ -100,17 +100,18 @@ rotary_pcnt_init();
 xTaskCreate(rotary_task, "rotary_task", 4096, NULL, 10, NULL);
 /////////////////////////////////////////////////////////////////////////////////////////////
 
-    ssd1309_reset();
+    ssd1309_reset();               // Display requires a reset before initialization, per datasheet
     ssd1309_init();                // Initialize I2C and OLED display
     ssd1309_clear();               // Clear the local framebuffer
-    ssd1309_draw_text(18, 0, "Time: 9:00PM");
+    ssd1309_draw_text(18, 0, "Time:  9:00PM");
     ssd1309_draw_hline(0, 127, 12);   // Horizontal line at y = 10, full width
     ssd1309_draw_hline(0, 127, 28);
     ssd1309_draw_hline(0, 127, 44);
-    ssd1309_draw_text(10, 2, "Alarm: 6:00AM");
-    ssd1309_draw_text(10, 4, "Sleep: 9 Hrs");
+    ssd1309_draw_text(10, 2, "Alarm:  6:00AM");
+    ssd1309_draw_text(10, 4, "Sleep:  9 Hrs");
     
-    ssd1309_draw_text(0, 6, "NO ALARM");  //Max characters per line, FYI
+    ssd1309_draw_text(0, 6, "Song Index: 41");
+    ssd1309_draw_text(0, 7, "Metal Alarm 1985");
     ssd1309_display();             // Push buffer to the OLED screen
 
     init_dfplayer_and_pam();      //Initialize MP3 Player

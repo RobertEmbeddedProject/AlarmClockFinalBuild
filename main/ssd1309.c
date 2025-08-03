@@ -1,8 +1,7 @@
+#include <string.h>
 #include "driver/i2c.h"
 #include "ssd1309.h"
 #include "smallfont.h"
-#include <string.h>
-
 #include "driver/gpio.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
@@ -17,12 +16,12 @@
 #define OLED_WIDTH                  128
 #define OLED_HEIGHT                 64
 #define OLED_BUF_SIZE               (OLED_WIDTH * OLED_HEIGHT / 8)
-
+//Each buffer is 8 pixels vertically from bottom to top in order to create a "page"
 static uint8_t oled_buffer[OLED_BUF_SIZE];
 
 //Initialize I2C via ESP-IDFs standard HAL implementation
 void i2c_master_init() {
-    i2c_config_t conf = {
+    i2c_config_t conf = {  
         .mode = I2C_MODE_MASTER,
         .sda_io_num = I2C_MASTER_SDA_IO,
         .scl_io_num = I2C_MASTER_SCL_IO,
@@ -129,7 +128,6 @@ void ssd1309_reset(void)
         .intr_type = GPIO_INTR_DISABLE
     };
     gpio_config(&io_conf);
-
     gpio_set_level(OLED_RESET_GPIO, 0);  // Reset low
     vTaskDelay(pdMS_TO_TICKS(50));       // Hold low 50ms
     gpio_set_level(OLED_RESET_GPIO, 1);  // Reset high
